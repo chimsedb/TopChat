@@ -1,0 +1,6 @@
+module Pods_TopChat {
+  umbrella header "Pods-TopChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

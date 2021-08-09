@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA5D3916BD70C90304B9D026 /* libPods-TopChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4538596175BFF33750EA4ED2 /* libPods-TopChat.a */; };
+		F1E3793C26C0C8C500538DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E3793B26C0C8C500538DD8 /* AppDelegate.swift */; };
+		F1E3793E26C0C8C500538DD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E3793D26C0C8C500538DD8 /* SceneDelegate.swift */; };
+		F1E3794026C0C8C500538DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E3793F26C0C8C500538DD8 /* ViewController.swift */; };
+		F1E3794326C0C8C500538DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E3794126C0C8C500538DD8 /* Main.storyboard */; };
+		F1E3794526C0C8C700538DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E3794426C0C8C700538DD8 /* Assets.xcassets */; };
+		F1E3794826C0C8C700538DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E3794626C0C8C700538DD8 /* LaunchScreen.storyboard */; };
+		F1E3795326C0C8C700538DD8 /* TopChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E3795226C0C8C700538DD8 /* TopChatTests.swift */; };
+		F1E3795E26C0C8C700538DD8 /* TopChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E3795D26C0C8C700538DD8 /* TopChatUITests.swift */; };
+		F1E3798126C0CA3900538DD8 /* TopLiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E3798026C0CA3900538DD8 /* TopLiveView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1E3794F26C0C8C700538DD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1E3793026C0C8C500538DD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E3793726C0C8C500538DD8;
+			remoteInfo = TopChat;
+		};
+		F1E3795A26C0C8C700538DD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1E3793026C0C8C500538DD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E3793726C0C8C500538DD8;
+			remoteInfo = TopChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4538596175BFF33750EA4ED2 /* libPods-TopChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TopChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518E7B807AEFDB7EA1E06B81 /* Pods-TopChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopChat.release.xcconfig"; path = "Target Support Files/Pods-TopChat/Pods-TopChat.release.xcconfig"; sourceTree = "<group>"; };
+		93959FB584A6ADCEB155806E /* Pods-TopChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopChat.debug.xcconfig"; path = "Target Support Files/Pods-TopChat/Pods-TopChat.debug.xcconfig"; sourceTree = "<group>"; };
+		F1E3793826C0C8C500538DD8 /* TopChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E3793B26C0C8C500538DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1E3793D26C0C8C500538DD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1E3793F26C0C8C500538DD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1E3794226C0C8C500538DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1E3794426C0C8C700538DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1E3794726C0C8C700538DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1E3794926C0C8C700538DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E3794E26C0C8C700538DD8 /* TopChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E3795226C0C8C700538DD8 /* TopChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopChatTests.swift; sourceTree = "<group>"; };
+		F1E3795426C0C8C700538DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E3795926C0C8C700538DD8 /* TopChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E3795D26C0C8C700538DD8 /* TopChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopChatUITests.swift; sourceTree = "<group>"; };
+		F1E3795F26C0C8C700538DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E3798026C0CA3900538DD8 /* TopLiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLiveView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1E3793526C0C8C500538DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5D3916BD70C90304B9D026 /* libPods-TopChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E3794B26C0C8C700538DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E3795626C0C8C700538DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E44A6F1043349EF05512DCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4538596175BFF33750EA4ED2 /* libPods-TopChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A248B688541A5307A8F217CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93959FB584A6ADCEB155806E /* Pods-TopChat.debug.xcconfig */,
+				518E7B807AEFDB7EA1E06B81 /* Pods-TopChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1E3792F26C0C8C500538DD8 = {
+			isa = PBXGroup;
+			children = (
+				F1E3793A26C0C8C500538DD8 /* TopChat */,
+				F1E3795126C0C8C700538DD8 /* TopChatTests */,
+				F1E3795C26C0C8C700538DD8 /* TopChatUITests */,
+				F1E3793926C0C8C500538DD8 /* Products */,
+				A248B688541A5307A8F217CD /* Pods */,
+				9E44A6F1043349EF05512DCC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1E3793926C0C8C500538DD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1E3793826C0C8C500538DD8 /* TopChat.app */,
+				F1E3794E26C0C8C700538DD8 /* TopChatTests.xctest */,
+				F1E3795926C0C8C700538DD8 /* TopChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1E3793A26C0C8C500538DD8 /* TopChat */ = {
+			isa = PBXGroup;
+			children = (
+				F1E3793B26C0C8C500538DD8 /* AppDelegate.swift */,
+				F1E3793D26C0C8C500538DD8 /* SceneDelegate.swift */,
+				F1E3793F26C0C8C500538DD8 /* ViewController.swift */,
+				F1E3794126C0C8C500538DD8 /* Main.storyboard */,
+				F1E3794426C0C8C700538DD8 /* Assets.xcassets */,
+				F1E3794626C0C8C700538DD8 /* LaunchScreen.storyboard */,
+				F1E3794926C0C8C700538DD8 /* Info.plist */,
+				F1E3798026C0CA3900538DD8 /* TopLiveView.swift */,
+			);
+			path = TopChat;
+			sourceTree = "<group>";
+		};
+		F1E3795126C0C8C700538DD8 /* TopChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1E3795226C0C8C700538DD8 /* TopChatTests.swift */,
+				F1E3795426C0C8C700538DD8 /* Info.plist */,
+			);
+			path = TopChatTests;
+			sourceTree = "<group>";
+		};
+		F1E3795C26C0C8C700538DD8 /* TopChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1E3795D26C0C8C700538DD8 /* TopChatUITests.swift */,
+				F1E3795F26C0C8C700538DD8 /* Info.plist */,
+			);
+			path = TopChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1E3793726C0C8C500538DD8 /* TopChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E3796226C0C8C700538DD8 /* Build configuration list for PBXNativeTarget "TopChat" */;
+			buildPhases = (
+				305B7A130DEFE103CA065BB0 /* [CP] Check Pods Manifest.lock */,
+				F1E3793426C0C8C500538DD8 /* Sources */,
+				F1E3793526C0C8C500538DD8 /* Frameworks */,
+				F1E3793626C0C8C500538DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopChat;
+			productName = TopChat;
+			productReference = F1E3793826C0C8C500538DD8 /* TopChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1E3794D26C0C8C700538DD8 /* TopChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E3796526C0C8C700538DD8 /* Build configuration list for PBXNativeTarget "TopChatTests" */;
+			buildPhases = (
+				F1E3794A26C0C8C700538DD8 /* Sources */,
+				F1E3794B26C0C8C700538DD8 /* Frameworks */,
+				F1E3794C26C0C8C700538DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E3795026C0C8C700538DD8 /* PBXTargetDependency */,
+			);
+			name = TopChatTests;
+			productName = TopChatTests;
+			productReference = F1E3794E26C0C8C700538DD8 /* TopChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1E3795826C0C8C700538DD8 /* TopChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E3796826C0C8C700538DD8 /* Build configuration list for PBXNativeTarget "TopChatUITests" */;
+			buildPhases = (
+				F1E3795526C0C8C700538DD8 /* Sources */,
+				F1E3795626C0C8C700538DD8 /* Frameworks */,
+				F1E3795726C0C8C700538DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E3795B26C0C8C700538DD8 /* PBXTargetDependency */,
+			);
+			name = TopChatUITests;
+			productName = TopChatUITests;
+			productReference = F1E3795926C0C8C700538DD8 /* TopChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1E3793026C0C8C500538DD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F1E3793726C0C8C500538DD8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F1E3794D26C0C8C700538DD8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F1E3793726C0C8C500538DD8;
+					};
+					F1E3795826C0C8C700538DD8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F1E3793726C0C8C500538DD8;
+					};
+				};
+			};
+			buildConfigurationList = F1E3793326C0C8C500538DD8 /* Build configuration list for PBXProject "TopChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1E3792F26C0C8C500538DD8;
+			productRefGroup = F1E3793926C0C8C500538DD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1E3793726C0C8C500538DD8 /* TopChat */,
+				F1E3794D26C0C8C700538DD8 /* TopChatTests */,
+				F1E3795826C0C8C700538DD8 /* TopChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1E3793626C0C8C500538DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E3794826C0C8C700538DD8 /* LaunchScreen.storyboard in Resources */,
+				F1E3794526C0C8C700538DD8 /* Assets.xcassets in Resources */,
+				F1E3794326C0C8C500538DD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E3794C26C0C8C700538DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E3795726C0C8C700538DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305B7A130DEFE103CA065BB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1E3793426C0C8C500538DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E3794026C0C8C500538DD8 /* ViewController.swift in Sources */,
+				F1E3793C26C0C8C500538DD8 /* AppDelegate.swift in Sources */,
+				F1E3798126C0CA3900538DD8 /* TopLiveView.swift in Sources */,
+				F1E3793E26C0C8C500538DD8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E3794A26C0C8C700538DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E3795326C0C8C700538DD8 /* TopChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E3795526C0C8C700538DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E3795E26C0C8C700538DD8 /* TopChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1E3795026C0C8C700538DD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1E3793726C0C8C500538DD8 /* TopChat */;
+			targetProxy = F1E3794F26C0C8C700538DD8 /* PBXContainerItemProxy */;
+		};
+		F1E3795B26C0C8C700538DD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1E3793726C0C8C500538DD8 /* TopChat */;
+			targetProxy = F1E3795A26C0C8C700538DD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1E3794126C0C8C500538DD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E3794226C0C8C500538DD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1E3794626C0C8C700538DD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E3794726C0C8C700538DD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1E3796026C0C8C700538DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1E3796126C0C8C700538DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E3796326C0C8C700538DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93959FB584A6ADCEB155806E /* Pods-TopChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6877CRU4Q;
+				INFOPLIST_FILE = TopChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hung.TopChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1E3796426C0C8C700538DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 518E7B807AEFDB7EA1E06B81 /* Pods-TopChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6877CRU4Q;
+				INFOPLIST_FILE = TopChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hung.TopChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1E3796626C0C8C700538DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6877CRU4Q;
+				INFOPLIST_FILE = TopChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hung.TopChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopChat.app/TopChat";
+			};
+			name = Debug;
+		};
+		F1E3796726C0C8C700538DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6877CRU4Q;
+				INFOPLIST_FILE = TopChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hung.TopChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopChat.app/TopChat";
+			};
+			name = Release;
+		};
+		F1E3796926C0C8C700538DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6877CRU4Q;
+				INFOPLIST_FILE = TopChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hung.TopChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopChat;
+			};
+			name = Debug;
+		};
+		F1E3796A26C0C8C700538DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6877CRU4Q;
+				INFOPLIST_FILE = TopChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hung.TopChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1E3793326C0C8C500538DD8 /* Build configuration list for PBXProject "TopChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E3796026C0C8C700538DD8 /* Debug */,
+				F1E3796126C0C8C700538DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E3796226C0C8C700538DD8 /* Build configuration list for PBXNativeTarget "TopChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E3796326C0C8C700538DD8 /* Debug */,
+				F1E3796426C0C8C700538DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E3796526C0C8C700538DD8 /* Build configuration list for PBXNativeTarget "TopChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E3796626C0C8C700538DD8 /* Debug */,
+				F1E3796726C0C8C700538DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E3796826C0C8C700538DD8 /* Build configuration list for PBXNativeTarget "TopChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E3796926C0C8C700538DD8 /* Debug */,
+				F1E3796A26C0C8C700538DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1E3793026C0C8C500538DD8 /* Project object */;
+}
